@@ -3,7 +3,7 @@
 Blink an LED connected to GPIO 2 every second.
 
 ## Simulation
-[Open in Wokwi]((https://wokwi.com/projects/477465338550953985))
+[Open in Wokwi](https://wokwi.com/projects/477465338550953985)
 
 ## Circuit
 ![Circuit](blink-circuit.png)
