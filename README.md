@@ -8,6 +8,7 @@ Learning ESP32 from scratch using simulation (Wokwi) only. Every exercise is doc
 |---|----------|----------------|-------|
 | 01 | [Blink](./01-blink) | GPIO, setup/loop, delay | (https://wokwi.com/projects/477465338550953985) |
 | 02 | [Button + LED](./02-button-led) | digitalRead, INPUT_PULLUP, if/else | (https://wokwi.com/projects/477499727219808257) |
+| 03 | [Traffic light](./03-Traffic-Light) | Multiple Output controll | (https://wokwi.com/projects/478737054386522113) |
 
 ## Tools
 - Wokwi simulator
@@ -15,7 +16,7 @@ Learning ESP32 from scratch using simulation (Wokwi) only. Every exercise is doc
 
 ## Roadmap
 - [x] Blink LED
-- [ ] Traffic light
+- [x] Traffic light
 - [x] Button + debounce
 - [ ] PWM and ADC
 - [ ] I2C / SPI (OLED, sensors)
