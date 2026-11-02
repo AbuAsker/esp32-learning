@@ -10,6 +10,7 @@ Learning ESP32 from scratch using simulation (Wokwi) only. Every exercise is doc
 | 02 | [Button + LED](./02-button-led) | digitalRead, INPUT_PULLUP, if/else | (https://wokwi.com/projects/477499727219808257) |
 | 03 | [Traffic light](./03-Traffic-Light) | Multiple Output controll | (https://wokwi.com/projects/478737054386522113) |
 | 04 | [PWM Fade](./04-pwm-fade) | PWM, analogWrite, millis | (https://wokwi.com/projects/479427803920797697) |
+| 05 | [ADC Dimmer](./05-adc-dimmer) | analogRead, map, PWM | (https://wokwi.com/projects/479618843621190657) |
 
 ## Tools
 - Wokwi simulator
