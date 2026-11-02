@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "author": "Hamza Abu Askar",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "board-esp32-devkit-c-v4", "id": "esp", "top": 0, "left": 0, "attrs": {} },
+    { "type": "wokwi-led", "id": "led1", "top": 20, "left": 180, "attrs": { "color": "red" } },
+    { "type": "wokwi-resistor", "id": "r1", "top": 90, "left": 150, "attrs": { "value": "220" } },
+    { "type": "wokwi-potentiometer", "id": "pot1", "top": -135.7, "left": 9.4, "attrs": {} }
+  ],
+  "connections": [
+    [ "esp:TX", "$serialMonitor:RX", "", [] ],
+    [ "esp:RX", "$serialMonitor:TX", "", [] ],
+    [ "esp:5", "r1:1", "green", [] ],
+    [ "r1:2", "led1:A", "green", [] ],
+    [ "led1:C", "esp:GND.2", "black", [] ],
+    [ "pot1:GND", "esp:GND.2", "black", [ "v28.8", "h105.6", "v67.2" ] ],
+    [ "pot1:VCC", "esp:3V3", "red", [ "v57.6", "h-53.79" ] ],
+    [ "pot1:SIG", "esp:34", "orange", [ "v38.4", "h-106", "v96" ] ]
+  ],
+  "dependencies": {}
+}
