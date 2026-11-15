@@ -11,7 +11,7 @@ Learning ESP32 from scratch using simulation (Wokwi) only. Every exercise is doc
 | 03 | [Traffic light](./03-Traffic-Light) | Multiple Output controll | (https://wokwi.com/projects/478737054386522113) |
 | 04 | [PWM Fade](./04-pwm-fade) | PWM, analogWrite, millis | (https://wokwi.com/projects/479427803920797697) |
 | 05 | [ADC Dimmer](./05-adc-dimmer) | analogRead, map, PWM | (https://wokwi.com/projects/479618843621190657) |
-
+| 06 | [traffic light v2](./06-traffic-light-v2) | switch | (https://wokwi.com/projects/480427524855796737) |
 ## Tools
 - Wokwi simulator
 - Arduino framework (later: ESP-IDF)
